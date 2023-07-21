@@ -28,7 +28,7 @@ This repository contains scripts to manage national CBS postcode shapefiles. Too
 
 -   root: R scripts
 
--   [/data](/data)
+-   /data](/data)
 
     -   [/codes](/data/codes): contains PC4 codes of the subarea, neighbourhood codes of the subarea and PC4 with the same urbanization index of the case-study subarea
 

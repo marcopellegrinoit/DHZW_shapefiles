@@ -32,10 +32,10 @@ This repository contains scripts to manage national CBS postcode shapefiles. Too
 
     -   [/codes](/data/codes): contains PC4 codes of the subarea, neighbourhood codes of the subarea and PC4 with the same urbanization index of the case-study subarea
 
-    -   [/processed](/data/processed)
+    -   /processed
 
-        -   [/csv](/data/processed/csv): csv formatted output
+        -   /csv: csv formatted output
 
-        -   [/shapefiles](/data/processed/shapefiles): shapefile formatted output
+        -   /shapefiles: shapefile formatted output
 
-    -   [/raw](/data/raw): input shapefile postcode data from CBS
+    -   /raw: input shapefile postcode data from CBS

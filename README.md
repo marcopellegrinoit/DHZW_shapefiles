@@ -1,6 +1,6 @@
 ![GitHub](https://img.shields.io/badge/license-GPL--3.0-blue)
 
-## Extracting subareas and centroids from CBS postcode shapefiles
+# Extracting subareas and centroids from CBS postcode shapefiles
 
 **Utrecht University, The Netherlands. 2022 - 2023**
 

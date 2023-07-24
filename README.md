@@ -1,6 +1,6 @@
 ![GitHub](https://img.shields.io/badge/license-GPL--3.0-blue)
 
-# Extracting Subareas and Centroids from CBS Postcode Shapefiles
+## Extracting Subareas and Centroids from CBS Postcode Shapefiles
 
 **Utrecht University, The Netherlands. 2022 - 2023**
 
@@ -18,40 +18,24 @@ Vectorial shapefiles can be retrieved from the [CBS portal](https://www.cbs.nl/n
 
 ## Usage
 
--   [`PC4_centroids.R`](PC4_centroids.R) extract centroids as a shapefile and CSV dataframe of coordinates for postcodes PC4
+[`PC4_centroids.R`](PC4_centroids.R) extract centroids as a shapefile and CSV dataframe of coordinates for postcodes PC4
 
--   [`PC5_centroids.R`](PC5_centroids.R) extract centroids as a shapefile and CSV dataframe of coordinate for postcodes PC5
+[`PC5_centroids.R`](PC5_centroids.R) extract centroids as a shapefile and CSV dataframe of coordinate for postcodes PC5
 
--   [`PC6_centroids.R`](PC6_centroids.R) extract centroids as a shapefile and CSV dataframe of coordinates for postcodes PC6
+[`PC6_centroids.R`](PC6_centroids.R) extract centroids as a shapefile and CSV dataframe of coordinates for postcodes PC6
 
--   [`PC5_DHZW.R`](PC5_DHZW.R) extract the shapefile of PC5 postcodes for the district of The Hague Zuid West, based on the district PC4s
+[`PC5_DHZW.R`](PC5_DHZW.R) extract the shapefile of PC5 postcodes for the district of The Hague Zuid West, based on the district PC4s
 
--   [`PC6_DHZW.R`](PC6_DHZW.R) extract the shapefile of PC6 postcodes for the district of The Hague Zuid West, based on the district PC4s
+[`PC6_DHZW.R`](PC6_DHZW.R) extract the shapefile of PC6 postcodes for the district of The Hague Zuid West, based on the district PC4s
 
--   [`PC6_DHZW_Moerwijk.R`](PC6_DHZW_Moerwijk.R) extract the shapefile of PC6 postcodes where the train station Moerwijk is located. Such postcodes are used when retrieving routing information for train trips.
+[`PC6_DHZW_Moerwijk.R`](PC6_DHZW_Moerwijk.R) extract the shapefile of PC6 postcodes where the train station Moerwijk is located. Such postcodes are used when retrieving routing information for train trips.
 
 ## Project structure
 
--   root: R scripts
-
--   [`/data`](/data)
-
--   
-
-    -   [`/codes`](/data/codes): includes PC4 codes of the subarea, neighbourhood codes of the subarea and PC4 with the same urbanization index as the case-study subarea
-
--   
-
-    -   `/processed`
-
--   
-
-    -   `/csv`: CSV formatted output
-
--   
-
-    -   `/shapefiles`: shapefile formatted output
-
--   
-
-    -   `/raw`: input shapefile postcode data from CBS
+*   root: R scripts
+*   [`/data`](/data)
+    *   [`/codes`](/data/codes): includes PC4 codes of the subarea, neighbourhood codes of the subarea and PC4 with the same urbanization index as the case-study subarea
+    *   `/processed`
+    *   `/csv`: CSV formatted output
+    *   `/shapefiles`: shapefile formatted output
+    *   `/raw`: input shapefile postcode data from CBS

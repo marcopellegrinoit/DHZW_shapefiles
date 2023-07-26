@@ -2,17 +2,20 @@
 
 ## Extracting Subareas and Centroids from CBS Postcode Shapefiles
 
-**Utrecht University, The Netherlands. 2022 - 2023**
+## Table of Contents
 
-Author: Marco Pellegrino
-
-Contributors: Jan de Mooij, Tabea Sonnenschein, Mehdi Dastani, Dick Ettema, Brian Logan, Judith A. Verstegen
+1.  [Description](#description)
+1.  [Data](#data)
+2.  [Usage](#usage)
+3.  [Project Structure](#project-structure)
+6.  [Contributors](#contributors)
+7.  [License](#license)
 
 ## Description
 
 This repository contains scripts to manage national CBS postcode shapefiles. Tools can extract vectorial subareas of selected postcodes and calculate their centroids. The code is generic for any subareas and it is applied to the case-study area of the district of Den Haag Zuid-West (DHZW).
 
-## Data Sources
+## Data
 
 Vectorial shapefiles can be retrieved from the [CBS portal](https://www.cbs.nl/nl-nl/dossier/nederland-regionaal/geografische-data/gegevens-per-postcode).
 
@@ -39,3 +42,19 @@ Vectorial shapefiles can be retrieved from the [CBS portal](https://www.cbs.nl/n
     *   `/csv`: CSV formatted output
     *   `/shapefiles`: shapefile formatted output
     *   `/raw`: input shapefile postcode data from CBS
+    
+## Contributors
+
+This project was made possible thanks to the hard work and contributions from:
+
+*   Marco Pellegrino (Author)
+*   Jan de Mooij
+*   Tabea Sonnenschein
+*   Mehdi Dastani
+*   Dick Ettema
+*   Brian Logan
+*   Judith A. Verstegen
+
+## License
+
+This repository is licensed under the GNU General Public License v3.0 (GPL-3.0). For more details, see the [LICENSE](LICENSE) file.
